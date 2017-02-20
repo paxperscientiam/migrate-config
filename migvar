@@ -1,0 +1,7 @@
+This is not a script...yet!!
+
+This extracts the deprecated variables (stored in migrate.txt) from `old/_user-settings`. Can you say overkill?
+git grep -F -f <(sed '/^$/b; s/^/$/' migrate.txt) -h old/_user-settings.scss | sed 's/:.*//'
+
+or...
+git grep -F -f <(sed '/^$/b; s/^/$/' migrate.txt) -h old/_user-settings.scss | cut -d: -f1

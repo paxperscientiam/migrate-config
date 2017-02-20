@@ -1,6 +1,8 @@
-header-color
-header-lineheight
-header-margin-bottom
+// deprecated
 flexvideo-margin-bottom
 flexvideo-ratio
 flexvideo-ratio-widescreen
+header-sizes
+
+// deprecated variable variable values
+input-background-invalid
