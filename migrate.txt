@@ -1,8 +1,8 @@
 // deprecated
-flexvideo-margin-bottom
-flexvideo-ratio
-flexvideo-ratio-widescreen
-header-sizes
+$flexvideo-margin-bottom
+$flexvideo-ratio
+$flexvideo-ratio-widescreen
+$header-sizes
 
 // deprecated variable variable values
-input-background-invalid
+$input-background-invalid
